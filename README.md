@@ -9,7 +9,7 @@ This project use Firebase as database and hoisting web server.
 #### Firestore
 
 1. Create a database `cash-flow`.
-2. Create some raccolta:
+2. Create some tables:
 
     - transactions:
     ```
@@ -34,6 +34,20 @@ This project use Firebase as database and hoisting web server.
   - configure rewrite rules for SPA (Single Page Application)
 
 - `firebase deploy`
+
+### Environment
+
+Inside `cash-flow-webapp` create a file `.env` and add these keys:
+
+```
+REACT_APP_FIREBASE_API_KEY=
+REACT_APP_FIREBASE_AUTH_DOMAIN=
+REACT_APP_FIREBASE_DATABASE_URL=
+REACT_APP_FIREBASE_PROJECT_ID=
+REACT_APP_FIREBASE_STORAGE_BUCKET=
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=
+REACT_APP_FIREBASE_APP_ID=
+```
 
 ### Deploy
 
